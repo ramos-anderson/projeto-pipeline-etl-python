@@ -1,0 +1,23 @@
+# Arquivos e pastas do Ambiente Virtual do Python
+venv/
+*.py[cod]
+*.so
+
+# Arquivos de cache e logs
+__pycache__/
+*.log
+.coverage
+
+# Pastas de dados gerados pelo pipeline
+# Não queremos versionar os dados, apenas o código que os gera.
+data/
+
+# Pasta do banco de dados gerado pelo pipeline
+database/
+
+# Arquivos específicos do VS Code
+.vscode/
+
+# Arquivos específicos do Sistema Operacional (opcional, mas bom ter)
+.DS_Store
+Thumbs.db
