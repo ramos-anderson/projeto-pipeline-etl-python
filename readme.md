@@ -2,8 +2,6 @@
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python) ![SQLite](https://img.shields.io/badge/SQLite-3.3-blue?style=for-the-badge&logo=sqlite)
 
-Este repositório contém o código de um pipeline de ETL... (o resto do texto continua igual)
-
 Este repositório contém o código de um pipeline de ETL (Extração, Transformação e Carga) completo e **automatizado**, desenvolvido em Python. O objetivo é simular um ambiente de produção onde dados de vendas são coletados de uma fonte online, processados e carregados em um banco de dados SQL para futuras análises.
 
 Este projeto demonstra habilidades práticas em **Engenharia de Dados**, **automação de processos**, arquitetura de software e boas práticas de organização de código.
@@ -96,4 +94,5 @@ python scripts/main.py
 Ao final da execução, o banco de dados database/vendas.db estará criado e pronto para ser consultado.
 
 ---
+
 
