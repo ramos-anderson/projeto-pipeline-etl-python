@@ -12,7 +12,7 @@ Este projeto demonstra habilidades práticas em **Engenharia de Dados**, **autom
 
 O fluxo de dados segue a seguinte arquitetura de ETL, orquestrada por scripts Python:
 
-[Fonte (CSV no GitHub)] --> [1. Extração (extract.py)] --> [Dados Brutos (data/raw)] --> [2. Transformação (transform.py)] --> [Dados Processados (data/processed)] --> [3. Carga (load.py)] --> [Banco de Dados (database/vendas.db)]
+[Fonte (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)] --> [1. Extração (extract.py)] --> [Dados Brutos (data/raw)] --> [2. Transformação (transform.py)] --> [Dados Processados (data/processed)] --> [3. Carga (load.py)] --> [Banco de Dados (database/vendas.db)]
 
 Todo este processo é agendado para rodar diariamente sem intervenção humana.
 
@@ -94,5 +94,6 @@ python scripts/main.py
 Ao final da execução, o banco de dados database/vendas.db estará criado e pronto para ser consultado.
 
 ---
+
 
 
